@@ -25,7 +25,7 @@ public class TestDeploy {
   }
   @BeforeTest
   public void beforeTest() {
-	  System.setProperty("webdriver.gecko.driver", "E:\\geckodriver-v0.20.1-win64\\geckodriver.exe");
+	  System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");
 		driver=new FirefoxDriver();
 		driver.get("http://ec2-18-191-164-154.us-east-2.compute.amazonaws.com:8090/TestWebapp/");
 	  
