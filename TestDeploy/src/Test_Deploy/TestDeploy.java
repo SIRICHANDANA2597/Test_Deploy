@@ -36,6 +36,7 @@ public class TestDeploy {
   public void afterTest() {
 	  
 	  Assert.assertEquals(title, "welcome");
+	  System.out.println("success");
 	  
 	  
   }
